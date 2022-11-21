@@ -1,5 +1,5 @@
 # NodeJS-MACAddressChanger
-Programa básico para cambiar la MAC de una interfaz y el HostName (Nombre en la red) de Windows.
+Programa básico de consola para cambiar la MAC de una interfaz y el HostName (Nombre en la red) de Windows.
 
 # IMPORTANTE
 
