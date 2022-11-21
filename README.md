@@ -10,3 +10,9 @@ Ejecutar desde "execute.bat" para requerir permisos de administrador, estos perm
 # NodeJS Requerido
 
 Instala NodeJS para poder utilizar NodeJS MACAddressChanger
+
+#Como verificar los cambios
+
+MAC: Panel de control>Redes e Internet>Centro de redes y recursos compartidos>Red conectada>Detalles o desde CMD > ipconfig /all
+
+HostName: CMD > ipconfig /all "Nombre de host"
