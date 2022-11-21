@@ -1,0 +1,1 @@
+MsgBox("Para poder editar la MAC de una interfaz, debes estar conectado con esta a alguna red. En caso de que te hayan bloqueado la MAC y uses Wi-Fi puedes conectarte a una zona wi-fi port" + Chr(225) + "til creada por ti.")
