@@ -207,7 +207,7 @@ const main = async () => {
           }
         }
 
-        console.log("\nIntentando escribir en el registro de Windows (Si es primera vez que ejecutas el programa y editas la interfaz, tardará un poco, La segunda vez ya es instantáneo)".white.bold)
+        console.log("\nIntentando escribir en el registro de Windows (Si es primera vez que ejecutas el programa y editas la interfaz, tardará un poco, La segunda vez ya es instantáneo).".white.bold)
         interfaceData = writeReg(intToChange[0], preMadeMac, intToChange[1], intToChange[2], cachedPath);
         if (!interfaceData[0]) {
           console.log("\nListo".white.bold);
