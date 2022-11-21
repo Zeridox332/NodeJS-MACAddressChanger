@@ -93,7 +93,7 @@ const main = async () => {
         continue;
       }
 
-      console.log('\nIntentando escribir en el registro de Windows...'.white.bold);
+      console.log('\nIntentando escribir en el registro de Windows (Si es primera vez que ejecutas el programa y editas la interfaz, tardará un poco, La segunda vez ya es instantáneo)'.white.bold);
 
       //search for cached device path
 
@@ -169,7 +169,7 @@ const main = async () => {
           }
         }
 
-        console.log("\nIntentando escribir en el registro de Windows".white.bold)
+        console.log("\nIntentando escribir en el registro de Windows (Si es primera vez que ejecutas el programa y editas la interfaz, tardará un poco, La segunda vez ya es instantáneo)".white.bold)
         for (let i in savedMacList){
           if (savedMacList[i].transportId === intToChange[0]) {
             interfaceData = writeReg(intToChange[0], savedMacList[i].mac, intToChange[1], intToChange[2], cachedPath);
@@ -207,7 +207,7 @@ const main = async () => {
           }
         }
 
-        console.log("\nIntentando escribir en el registro de Windows".white.bold)
+        console.log("\nIntentando escribir en el registro de Windows (Si es primera vez que ejecutas el programa y editas la interfaz, tardará un poco, La segunda vez ya es instantáneo)".white.bold)
         interfaceData = writeReg(intToChange[0], preMadeMac, intToChange[1], intToChange[2], cachedPath);
         if (!interfaceData[0]) {
           console.log("\nListo".white.bold);
