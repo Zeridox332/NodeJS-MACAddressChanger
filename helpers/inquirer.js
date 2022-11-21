@@ -12,7 +12,7 @@ const selectInterface = async (manual = false, scanAll = false) => {
     message = "Selecciona la interfaz a reactivar";
     choices = getInterfaces(true, true)
   } else {
-    message = "Selecciona una interfaz a la cual ponerle una MAC pre-definida (Si no aparece reactiva la interfaz usando 'Reactivar interfaz de red')\n(EL PROGRAMA NO FUNCIONARÁ SI NO SE EJECUTA CON PRIVILEGIOS DE ADMINISTRADOR, ESTOS PRIVILEGIOS SE SOLICITAN AL EJECUTAR DESDE execute.bat).";
+    message = "Selecciona una interfaz a la cual ponerle una MAC pre-definida \n(Si no aparece reactiva la interfaz usando 'Reactivar interfaz de red' y reinicia el programa)\n(EL PROGRAMA NO FUNCIONARÁ SI NO SE EJECUTA CON PRIVILEGIOS DE ADMINISTRADOR, ESTOS PRIVILEGIOS SE SOLICITAN AL EJECUTAR DESDE execute.bat).";
     choices = getInterfaces();
   }
     
